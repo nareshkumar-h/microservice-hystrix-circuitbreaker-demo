@@ -10,6 +10,10 @@
 * when we apply a circuit breaker to a method, Hystrix watches for failing calls to that method, and if failures build up to a threshold, Hystrix opens the circuit so that subsequent calls automatically fail. 
 * While the circuit is open, Hystrix redirects calls to the method, and they’re passed on to our specified fallback method.
 
+
+* Spring Cloud Netflix Hystrix looks for any method annotated with the @HystrixCommand annotation, and wraps that method in a proxy connected to a circuit breaker so that Hystrix can monitor it.
+
+
 ```
 import java.util.ArrayList;
 import java.util.List;
