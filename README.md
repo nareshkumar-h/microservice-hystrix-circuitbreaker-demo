@@ -56,3 +56,6 @@ public class TransactionService {
 
 }
 ```
+
+#### Hystrix Dashboard
+![](hystrix.png)
