@@ -1,4 +1,10 @@
-# microservice-hystrix-circuitbreaker-demo
+# Implementing Circuit Breaker for Microservice
+
+#### New Annotations
+* @EnableHystrix
+* @EnableHystrixDashboard
+* @EnableCircuitBreaker
+
 
 # Circuit Breaker
 * You'll build a microservice application that uses the Circuit Breaker pattern to gracefully degrade functionality when a method call fails. 
